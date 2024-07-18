@@ -82,7 +82,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'data_infer',
         'USER': 'postgres',
-        'PASSWORD': 'khangkhang',
+        'PASSWORD': '123',
         'HOST': 'localhost',
         'PORT': '5432',
     }
