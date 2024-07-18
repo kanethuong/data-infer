@@ -3,28 +3,26 @@
 This project is part of the assessment for the Full Stack Software Engineering role at Rhombus AI. It demonstrates a web application that allows users to upload CSV or Excel files and infers the data types of each column.
 
 ## Table of Contents
-1. [Setup Instructions](#)
-2. Running the Application
-3. Additional Notes
-4. Project Structure
-5. Technologies Used
+1. [Setup Instructions](#setup-instructions)
+2. [Running the Application](#running-the-application)
+3. [Additional Notes](#additional-notes)
+4. [Technologies Used](#technologies-used)
 
 ## Setup Instructions
 ### Prerequisites
 Ensure you have the following installed on your system:
 
-- Python 3.8+
-- Node.js 14+
-- npm 6+
-- PostgreSQL 12+
-- Django 3.2+
-- React 17+
+- [Python](https://www.python.org/downloads/)
+- [Node.js](https://nodejs.org/en/download/prebuilt-installer/current)
+- [PostgreSQL](https://www.postgresql.org/download/)
+- [Django](https://www.djangoproject.com/download/)
+- [React](https://react.dev/)
 
 ## Backend Setup
 1. Clone the repository:
 ```
-git clone https://github.com/YourUsername/your-project-repo.git
-cd your-project-repo
+git clone https://github.com/kanethuong/data-infer.git
+cd data-infer
 ```
 
 2. Create and activate a virtual environment:
@@ -40,7 +38,7 @@ pip install -r requirements.txt
 
 4. Configure PostgreSQL database:
 - Create a PostgreSQL database named your_database_name.
-- Update the database configuration in your_project/settings.py:
+- Update the database configuration in backend/backend/settings.py:
 ```
 DATABASES = {
     'default': {
@@ -55,6 +53,7 @@ DATABASES = {
 ```
 5. Run database migrations:
 ```
+python manage.py makemigrations
 python manage.py migrate
 ```
 
