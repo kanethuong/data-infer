@@ -1,0 +1,101 @@
+boolean_0,sparsed_columns_1,sparsed_columns_2,mixed_names_with_nulls_3,non_standard_date_4,email_5,category_6,mixed_names_with_nulls_7,category_8,non_standard_date_9
+False,,heart,,10-04-1999,marissacrane@example.net,B,,C,12-31-2003
+True,experience,hot,,05-02-2013,vherrera@example.org,C,Brent Martin,C,07-03-2013
+False,,amount,,02-12-2006,alexander89@example.com,C,,D,03-05-2011
+True,,,Raymond Higgins,27-07-2011,twilliams@example.com,,,,09-29-2007
+False,health,,Nicole Simpson,25-08-1997,shorttina@example.net,,,C,07-02-2013
+True,,those,,28-09-2008,xkim@example.net,,Kimberly Guerrero,C,05-31-2013
+True,someone,wrong,,03-09-2006,lesteranita@example.org,C,,A,04-30-2008
+True,high,,Jacqueline Smith,26-10-2008,benjaminbrandon@example.com,B,,C,03-19-2002
+True,,turn,Mrs. Shannon Donovan,01-08-2007,watkinstommy@example.com,A,Stephen Harris,A,03-27-2018
+False,bill,forget,,22-07-2008,douglassmith@example.org,A,,D,11-24-1998
+True,imagine,learn,,01-10-1995,jacobfields@example.com,,Claire Cobb,C,09-28-2011
+True,treat,that,Connie Young,21-08-1999,andreaadams@example.org,B,Michael Young,A,02-11-2010
+True,,,,09-12-2020,john99@example.net,D,,D,10-17-1998
+False,,model,Alice White,09-11-2022,kenneth87@example.net,,Patricia Wood,A,07-26-1995
+False,,detail,Suzanne Clark,01-01-2006,cchaney@example.org,C,,D,05-04-2001
+True,their,,Ryan Brooks,17-12-2006,johnny98@example.net,C,Melissa Herrera,B,10-13-1998
+False,,,,19-03-2011,mezalarry@example.org,A,,B,08-18-1997
+False,,suffer,Jeffrey Pena,20-07-2001,ychavez@example.com,C,Craig Jordan,,08-13-1998
+True,,bag,April Moore,09-11-1998,linda66@example.net,C,Lori Rhodes,C,04-20-2012
+False,,,,10-11-2009,williamarellano@example.com,B,Caleb Young,A,01-15-2007
+False,,natural,,18-09-1996,james52@example.org,,Jonathan Price,B,02-16-2016
+False,,,,17-12-1995,adamsrhonda@example.com,B,,B,09-14-1995
+True,,,,27-10-2003,harrisonrebecca@example.net,,Kylie Collins,B,09-05-2019
+True,life,later,,01-02-1999,jimenezjoseph@example.com,,,B,03-19-1999
+False,while,,,31-01-2018,watsonrobert@example.net,C,,A,02-20-2009
+False,new,deal,Judy Scott,27-01-1996,suedavidson@example.net,D,,A,06-29-2018
+False,necessary,,,21-07-2017,stevencole@example.org,A,Haley Webb DVM,A,02-13-2022
+True,anything,if,,03-10-2005,cookmakayla@example.net,D,Brian Harper,,10-14-1999
+True,close,you,Gregory Owens,17-05-2018,brichardson@example.com,C,Emily Sanchez,,02-28-1996
+True,,,,18-03-2017,johnnguyen@example.com,A,,C,11-22-2008
+False,,modern,,07-05-1997,michael39@example.net,D,Mrs. Amy Yoder DVM,B,09-20-2005
+True,over,yourself,Jeremiah Hunter,17-04-2000,ericamarshall@example.com,D,,C,11-20-2003
+False,,,Kelly Oneal,31-05-2000,miguelcook@example.net,B,Katherine Weaver,A,03-28-2020
+True,,situation,,13-07-2007,jcurry@example.org,,Wanda Norris,,06-04-1996
+False,bit,list,,10-09-1998,jodybrown@example.net,,,,05-03-1998
+True,,song,Tammy Hampton,03-05-2015,donaldroth@example.com,B,,A,12-27-2017
+True,,produce,,10-06-2010,lynchamanda@example.com,C,Mary Cross,C,04-01-2020
+True,,,Shawn Casey,26-10-1998,campbellanthony@example.org,,George Hess,A,03-17-2016
+False,,,,05-04-2013,mcdonaldthomas@example.net,B,,B,10-04-2000
+False,,dark,,10-12-2005,robert56@example.net,C,,A,02-17-2023
+True,,,Tiffany Murray,03-08-2004,warrenandrew@example.com,C,,C,08-13-2000
+True,,,Tina Newman,23-11-2020,schwartzpeter@example.org,D,,B,04-25-2017
+True,,,,24-05-2013,michelle68@example.com,,Richard Avila,A,04-28-1995
+False,,,Steven Torres,12-08-2008,kristy91@example.org,A,,D,04-11-2007
+True,,,Jade Ellis,26-03-2011,smithsarah@example.com,C,,,07-18-2021
+False,,,,14-02-2019,stewartcandice@example.com,C,Laura Green,A,12-29-2008
+True,thing,collection,,27-03-2010,robert67@example.net,D,Jacob Henry,D,02-25-2012
+True,,child,Michael Farrell,14-09-2003,lmontgomery@example.com,,Alex Williams,C,07-12-2010
+False,a,short,Rachel Fields,02-07-1999,andersoncolin@example.com,B,,A,09-09-2018
+True,,remember,Michelle Turner,18-01-1996,dcooley@example.net,,Cheryl Osborne,C,11-18-2006
+False,,,Kathleen Armstrong,19-12-1998,davidcollins@example.org,,Jill Sanchez,C,05-20-2018
+False,,,Teresa Clark,11-05-2014,anthonyvazquez@example.net,,,A,07-05-1996
+False,see,,,31-05-2021,williamwilliams@example.org,D,,B,06-22-2015
+False,close,candidate,,25-10-2017,oallison@example.com,A,John Salazar,B,05-01-2006
+False,,,,14-03-2007,hlove@example.com,D,,C,01-08-2003
+True,seem,,,07-05-1998,aliciageorge@example.com,A,,,03-26-2009
+True,room,,Faith Lucas,09-12-1994,janicestewart@example.com,C,Aaron Jordan,D,06-11-2015
+False,,,,20-02-2013,nwyatt@example.com,C,Christopher Woods,D,07-28-2012
+False,including,play,Kristina Massey,30-12-1998,blackburnelizabeth@example.org,,,A,12-16-2004
+True,,,Tammy Berry,19-05-2007,bauerlaura@example.net,A,,C,01-06-2019
+True,,,Kim Young,11-08-1997,diazbrianna@example.org,C,Jose Ballard,,12-31-1999
+True,identify,,Hannah Saunders,31-08-1996,paul88@example.org,C,,A,11-14-2014
+True,special,,,14-08-2019,shawnhunter@example.org,D,William Tran,,06-08-2008
+True,money,decade,Matthew Gonzalez,23-09-2019,katherine22@example.org,,,B,01-16-2003
+False,deal,opportunity,,13-05-2002,april17@example.com,D,,D,01-15-2010
+True,cell,,Danny Brown,03-01-2001,taylorerica@example.org,B,,D,10-16-2004
+False,itself,,,24-01-2005,bsingh@example.org,D,,C,09-03-2004
+False,,say,Frank Wagner,24-03-2008,castanedamark@example.com,B,Ashley Richmond,A,04-12-2005
+True,save,,Jesse Callahan,15-03-2012,ashley60@example.com,D,Judy Page DDS,A,02-09-2023
+False,,lead,,06-10-2011,hbeasley@example.com,B,Cesar Schroeder,D,07-08-2007
+False,professor,,,29-04-1995,grhodes@example.org,A,,C,01-27-2008
+False,,,Jerry Turner,26-06-2024,ginamontgomery@example.com,D,Luke Guzman,D,03-09-1999
+True,,,,18-01-2012,bradshawlucas@example.com,C,Timothy Henderson,A,08-18-2007
+True,,test,Frank Lee,19-08-1996,woodsjasmine@example.net,B,Amy Park,D,11-19-2010
+False,president,,Jessica Mitchell,16-04-2015,peter07@example.com,A,,D,05-05-1997
+True,,,,24-11-1998,jeffrey02@example.com,D,Elizabeth Ellis,D,09-06-2000
+True,,,Ruth Williams,08-12-2021,christopherwest@example.net,B,Ronald Rivas,C,02-18-2015
+False,can,,,18-12-2023,mark59@example.net,B,Kayla Miller,D,04-12-2007
+True,,,Kevin Meyer,31-12-1994,vhinton@example.net,D,Tracy Baker,,02-16-2013
+False,,friend,Christina Long,16-06-2011,bethgreen@example.net,B,,C,11-12-2010
+True,lay,,Melissa Cox,05-03-2015,karenjohnson@example.com,,Anthony Young,,01-12-2016
+False,,,Jennifer Espinoza,02-02-2017,robert21@example.org,A,Bonnie Harrison,B,08-12-2013
+False,,,Matthew Frederick,23-04-1999,sheilabarry@example.org,B,,A,04-29-2004
+False,,,Ethan Thompson,24-03-2024,sharondavidson@example.org,C,,B,04-13-2010
+True,,close,,10-11-2005,hking@example.com,A,,A,10-08-2000
+False,will,without,Linda Hernandez,22-09-2001,evanmitchell@example.com,C,Breanna Roberts,A,07-14-2020
+True,very,matter,Cory Barron,09-10-2009,karenelliott@example.net,B,,D,09-15-2019
+True,,,Brandi Smith,26-03-2013,joyceamanda@example.net,C,,D,01-31-1998
+False,,,,24-05-2008,xbennett@example.com,,,A,04-25-2008
+True,,research,Katie Lewis,08-09-2016,jharris@example.com,A,,D,09-05-2005
+False,,traditional,Isaiah Frazier,11-06-2019,michaelbell@example.org,A,,A,04-23-2021
+False,outside,who,,14-09-2005,cindy50@example.com,A,,D,11-29-2015
+True,,actually,,31-08-2016,william24@example.net,D,Martha Tyler,D,04-27-2005
+True,should,turn,,28-05-2005,anthonyhughes@example.com,C,,B,01-06-2006
+True,,,Michael Evans,30-01-2018,andreacooper@example.net,C,Anthony Murray,B,08-21-2001
+False,,,,25-01-2006,gsavage@example.net,A,,D,12-17-2011
+False,sound,citizen,,04-04-2007,rjackson@example.org,A,Miss Jaime Romero DDS,C,09-14-2014
+False,,,,09-08-2009,cynthia29@example.com,,James Velez,C,11-14-2019
+True,protect,senior,Alexis Wolf,23-02-1998,iknight@example.com,B,Nathan Moyer,B,07-20-2023
+False,,,Adam Smith,02-06-2009,baileydaniel@example.com,,Cheyenne Richardson,B,06-24-2007
