@@ -53,6 +53,7 @@ DATABASES = {
 ```
 5. Run database migrations:
 ```
+cd .\backend\
 python manage.py makemigrations
 python manage.py migrate
 ```
