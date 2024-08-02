@@ -8,13 +8,16 @@ class ComplexAnalysis(BaseAnalysis):
 
     def __init__(self, series, threshold=0.8):
         super().__init__(series, threshold)
+        # Convert any null values in string to np.nan
         self.series = replace_null_values(series)
 
     def is_applicable(self) -> bool:
         sample_data = self.series.head()
+        # Ensure that the sample data is not all null
         while sample_data.isna().all() and len(sample_data) < len(self.series):
             sample_data = self.series.head(len(sample_data) * 2)
         type_code = np.dtype(sample_data.dtype).char
+        # Only applicable if the column is of complex type or object type
         return type_code in np.typecodes["Complex"] or type_code == "O"
 
     def analyze(self):

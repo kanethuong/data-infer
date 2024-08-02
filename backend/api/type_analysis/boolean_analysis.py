@@ -10,19 +10,20 @@ class BooleanAnalysis(BaseAnalysis):
 
     def __init__(self, series, threshold=0.8):
         super().__init__(series, threshold)
+        # Convert any null values in string to np.nan
         self.series = replace_null_values(series)
 
     def is_applicable(self) -> bool:
         uniques = len(self.series.unique())
-        allowed_uniques = len(self.TRUTHY_VALUES) + len(self.FALSY_VALUES) + 3
+        allowed_uniques = len(self.TRUTHY_VALUES) + len(self.FALSY_VALUES) + 3 # 3 is the room for other additional posible values
 
         data_type = self.series.dtype
-        dtype_char = np.dtype(data_type).char
+        dtype_char = np.dtype(data_type).char # get the character code of the data type
 
         is_valid_type = (
             data_type == "bool"
             or data_type == "object"
-            or dtype_char in np.typecodes["AllInteger"]
+            or dtype_char in np.typecodes["AllInteger"] # in case boolean values are reprensented by 0 and 1
         )
 
         return uniques <= allowed_uniques and is_valid_type

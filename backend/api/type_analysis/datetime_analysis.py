@@ -9,6 +9,7 @@ class DatetimeAnalysis(BaseAnalysis):
 
     def __init__(self, series, threshold=0.8):
         super().__init__(series, threshold)
+        # Convert any null values in string to np.nan
         self.series = replace_null_values(series)
 
     def is_applicable(self) -> bool:
@@ -21,12 +22,14 @@ class DatetimeAnalysis(BaseAnalysis):
 
         current_head = self.series.head(test_size)
 
+        # Ensure that the sample data is not all null
         while test_size < max_test_size and current_head.isna().all().all():
             test_size *= 2
             current_head = self.series.head(test_size)
 
         # Check if the current_head can be converted to datetime
         if self.can_convert_to_datetime(current_head):
+            # Get the ratio of non-missing values
             test_convert_rate = (
                 1 - pd.to_datetime(current_head, errors="coerce").isna().mean()
             )

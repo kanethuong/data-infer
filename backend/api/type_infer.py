@@ -7,7 +7,8 @@ from .type_analysis.boolean_analysis import BooleanAnalysis
 from .type_analysis.complex_analysis import ComplexAnalysis
 from .type_analysis.timedelta_analysis import TimedeltaAnalysis
 
-
+# Define threshold based on the number of rows in the column
+# The threshold is achieved by trial and error
 def get_threshold(col: pd.Series) -> float:
     c = len(col)
     if c < 100:
@@ -72,6 +73,7 @@ def run_analysis(analysis, threshold, results_list):
             return
         analysis_result = analysis.analyze()
 
+        # Handle the return of numeric analysis
         if isinstance(analysis_result, tuple):
             max_ratio = max(analysis_result)
         else:

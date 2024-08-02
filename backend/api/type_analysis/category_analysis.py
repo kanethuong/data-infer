@@ -8,12 +8,14 @@ class CategoryAnalysis(BaseAnalysis):
 
     def __init__(self, series, threshold=0.8):
         super().__init__(series, threshold)
+        # Convert any null values in string to np.nan
         self.series = replace_null_values(series)
 
     def is_applicable(self) -> bool:
+        # Prevent columns with too many unique values from being converted to category
         if self.series.nunique() > 50:
             return False
-        # Check if the series contains datetime-like strings
+        # Explicitly check for datetime strings as they can be misinterpreted as categories
         if self.series.dropna().apply(lambda x: self.is_datetime_string(x)).all():
             return False
 
@@ -27,9 +29,12 @@ class CategoryAnalysis(BaseAnalysis):
             return 1.0
 
         series_converted = pd.Categorical(self.series)
-        category_ratio = self.series.nunique() / self.series.count()
+
+        # ratio of unique values to total values
+        # the higher the ratio, the less likely the column is a category
+        category_ratio = self.series.nunique() / self.series.count() 
         self.converted = series_converted
-        return 1 - category_ratio
+        return 1 - category_ratio # invert the ratio to get the categorical fit score
 
     def get_type(self):
         return self.convert().dtype

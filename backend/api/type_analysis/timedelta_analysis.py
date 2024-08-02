@@ -8,6 +8,7 @@ class TimedeltaAnalysis(BaseAnalysis):
 
     def __init__(self, series, threshold=0.8):
         super().__init__(series, threshold)
+        # Convert any null values in string to np.nan
         self.series = replace_null_values(series)
 
     def is_applicable(self) -> bool:

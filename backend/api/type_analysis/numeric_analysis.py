@@ -9,6 +9,7 @@ class NumericAnalysis(BaseAnalysis):
 
     def __init__(self, series, threshold=0.8):
         super().__init__(series, threshold)
+        # Convert any null values in string to np.nan
         self.series = replace_null_values(series)
 
     def is_applicable(self) -> bool:
@@ -19,19 +20,20 @@ class NumericAnalysis(BaseAnalysis):
         )
 
     def analyze(self):
+        # If any value is not a number, it will be coerced to NaN
         series_converted = pd.to_numeric(self.series, errors="coerce")
-        numeric_ratio = series_converted.notna().mean()
+        numeric_ratio = series_converted.notna().mean() # statistic of non-NaN (number) values
 
         if series_converted.isna().all():
             return 0.0, 0.0, 0.0
 
-        # Second conversion to float
+        # Calculate the statistic of float values
         series_converted_float = pd.to_numeric(
             series_converted, errors="coerce", downcast="float"
         )
         float_ratio = series_converted_float.notna().mean()
 
-        # Check if all values are integers or NaNs
+        # Check if all float values are integers or NaNs
         is_integer_or_na = series_converted_float.apply(
             lambda x: pd.isna(x) or float(x).is_integer()
         )
@@ -39,6 +41,7 @@ class NumericAnalysis(BaseAnalysis):
         if is_integer_or_na.all():
             # Downcast to appropriate integer type
             if series_converted_float.min() >= 0:
+                # If all numbers are positive, use unsigned integer for better memory usage
                 series_converted_int = pd.to_numeric(
                     series_converted_float, errors="coerce", downcast="unsigned"
                 )
